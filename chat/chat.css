@@ -1,0 +1,167 @@
+.test {
+    border: 1px solid red !important;
+}
+
+/* background animation */
+
+#boxAnim {
+
+	opacity: 0.4;
+	height: 60px;
+	width: 60px;
+	background: black;
+
+	 position: relative;
+	top: 900px;
+
+	 animation: hd 35s infinite linear;
+
+}
+
+#boxAnim:nth-child(6) {
+
+	animation: hd2 30s infinite linear;
+	animation-delay: 1s;
+	left: 23%;
+	/* bottom: -10px; */
+    top: -400px;
+}
+
+#boxAnim:nth-child(3) {
+
+	animation: hd2 30s infinite linear;	
+	left: 60%;
+    top: -400px;
+}
+
+#boxAnim:nth-child(8) {
+
+	animation-delay: 5s;
+	left: 33%;
+
+}
+
+#boxAnim:nth-child(5) {
+
+	animation: hd2 30s infinite linear;	
+	animation-delay: 8s;
+	left: 90%;
+	top: -400px;
+
+}
+
+#boxAnim:nth-child(2) {
+
+	animation-delay: 2s;
+	left: 15%;
+
+}
+
+#boxAnim:nth-child(7) {
+
+	animation-delay: 6s;
+	left: 69%;
+
+}
+
+#boxAnim:nth-child(4) {
+
+	animation: hd2 30s infinite linear;	
+top: -400px;
+	animation-delay: 10s;
+	left: 39%;
+
+}
+
+
+@keyframes hd {
+
+      to {
+		transform: rotate(360deg);
+		top: -400px;
+	}
+}
+@keyframes hd2 {
+
+      to {
+		transform: rotate(-360deg);
+		top: 1000px;
+	}
+}
+
+/*  */
+
+body {
+   background:  url(./../Index/photo.jpg);
+    overflow: hidden;
+}
+
+/* chat */
+
+.chat .chatField {
+    height: 500px;
+    margin-top: 200px;
+    background: rgba(0, 0, 0, 0.699);
+    box-shadow: 10px 10px 10px black;
+    opacity: 0.6;
+    border-radius: 15px;
+}
+
+.form form input {
+    /* margin-top: 10px; */
+    position: relative;
+    top: -60px;
+}
+
+.form form input[type="text"] {
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background: rgba(73, 73, 73, 0.637);
+    font-size: 20px;
+    padding: 10px 5px;
+    color:white;
+
+}
+
+.form form input[type="submit"] {
+    background: black;
+    color: white;
+    border: none;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.realChatField {
+    height: 450px;
+    overflow: scroll;
+    color: white;
+    opacity: 10;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 15px;
+
+}
+
+.me {
+    text-align: right;
+    padding-right: 20px; 
+    padding-top: 10px;
+    background: #000;
+    width: 100%;
+
+}
+
+.other {
+    text-align: left;
+    padding-left: 20px; 
+    /* padding-top: 10px; */
+
+    width: 100%;
+
+
+}
+
+/*  */

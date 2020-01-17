@@ -1,0 +1,41 @@
+.resume .col-sm-8 {
+    margin-top: 100px;
+}
+
+.resume .name {
+    text-align: center;
+}
+
+.test {
+    border:1px solid red;
+}
+
+table tr th,table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tr th,table tr td {
+    width: 10%;
+}
+
+footer {
+    margin-top: 40px;
+    height: 40px;
+    background:linear-gradient(130deg,rgb(7,34,138), rgb(0,129,171)); 
+    color: white;
+    text-align: center;
+}
+
+.copy {
+    position: relative;
+    top: 7px;
+}
+
+#sub {
+    background: transparent;
+    border: none;
+    border: 1px solid rgb(7,34,138);
+    width: 20%;
+    border-radius: 10px;
+}

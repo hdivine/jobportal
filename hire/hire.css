@@ -1,0 +1,61 @@
+.all-sk {
+
+    position: relative;
+    top: 200px;
+}
+
+.form form button {
+    margin-top: 20px; 
+    background: transparent;
+    border: none;
+    width: auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.form form button a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.form form button:nth-child(1) {
+    margin-right: 100px;
+}
+
+.form form button {
+    margin-left: 10px;
+
+}
+
+.name {
+    padding: 10px 0px 0px 10px;
+}
+
+.intro {
+    height: 100px;
+    overflow: hidden;
+    padding: 5px 20px 0px;
+
+}
+
+.intro::before {
+    content: '';
+   
+    margin-left: 20px;
+}
+
+.sk-person {
+
+    background: rgb(7,34,138);
+    color: #fff;
+    border-radius: 10px;
+    height: 200px;
+
+
+}
+
+.view {
+    position: relative;
+    left: 20px;
+}
